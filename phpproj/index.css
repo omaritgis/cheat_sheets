@@ -1,0 +1,38 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.command_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.command_input input {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.command_output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.command_output textarea {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
